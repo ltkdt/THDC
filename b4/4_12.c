@@ -19,7 +19,7 @@ int main(){
     }
     else if (n > 0){
         while( n >= 0){
-            out += pow(x, n) / factorial(n) ;
+            out += ( pow(-1,n) * pow(x, n) ) / factorial(n) ;
             n--;
         }
         printf("%.4lf", out);
