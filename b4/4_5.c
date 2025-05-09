@@ -7,5 +7,13 @@ int main(){
     scanf("%lf", &b);
     scanf("%lf", &c);
 
-    if()
+    if( a == 0){
+        if ( b == 0 && c == 0){
+            printf("Phuong trinh vo so nghiem");
+        }
+        if ( b == 0 && c != 0){
+            printf("Phuong trinh vo nghiem");
+        }
+        printf("%lf", -c / b);
+    }
 }
