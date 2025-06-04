@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 int main(){
     int a, b, c;
     scanf("%d", &a);
@@ -8,9 +7,8 @@ int main(){
     scanf("%d", &c);
 
     int tong = a + b + c;
-    float tb = (float)tong / 3;
+    double tb = (double)tong / 3;
     printf("%d\n", tong);
     printf("%f", tb);
-    //getch();
-    
+    return 0;
 }
