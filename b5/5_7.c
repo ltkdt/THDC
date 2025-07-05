@@ -38,7 +38,6 @@ int main(){
     }
 
     for(i; out[i] != 0; i++){
-        
         if( !(out[i+1] == 0 && out[i] == 32) ){
             printf("%c", out[i]);
             //printf("\n");
